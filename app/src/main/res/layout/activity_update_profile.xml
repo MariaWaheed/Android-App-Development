@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UpdateProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/logocolour"
+            android:paddingLeft="75dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:text="Update Record"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/updateinformation"
+            android:layout_width="275dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Update Personal Record"
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/UpdateEducation"
+            android:layout_width="275dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Update Education"
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/UpdateExperience"
+            android:layout_width="275dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Update Experience"
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/UpdateDomain"
+            android:layout_width="275dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Update Domain"
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/UpdateMiscellaneous"
+            android:layout_width="275dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Update Job Requirement"
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/AddDocuments"
+            android:layout_width="275dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Update CV"
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+
+
+
+
+        <Button
+            android:id="@+id/back_5"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Back"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>

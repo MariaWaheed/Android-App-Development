@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DomainProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text="Add Domain Profile"
+            android:textColor="@color/logocolour"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/subprofile_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp">
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textSize="25dp"
+            />
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textSize="25dp"/>
+
+            <RadioButton
+                android:id="@+id/r8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Domain Profile"
+                android:textSize="25dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/othersubdomain"
+            android:layout_width="350dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Others....... "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <Button
+            android:id="@+id/adddomainprofile"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Save"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/back_5"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Back"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/nextto"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Next"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

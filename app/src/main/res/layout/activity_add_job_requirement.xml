@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddJobRequirement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="17dp"
+            android:layout_marginStart="75dp"
+            android:text="Add Job Requirements"
+            android:textColor="@color/logocolour"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginBottom="1dp"
+            android:text="Job Nature"
+            android:textColor="@color/logocolour"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerjobtype"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="26dp"
+            android:entries="@array/job_nature"
+            android:spinnerMode="dropdown"
+            />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginBottom="1dp"
+            android:text="Salary Expected"
+            android:textColor="@color/logocolour"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <RadioGroup
+            android:id="@+id/salgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/sal1"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:text="10k to 20k"
+                android:textSize="25dp"/>
+
+            <RadioButton
+                android:id="@+id/sal2"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:text="20k to 40k"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/sal3"
+                android:layout_width="198dp"
+                android:layout_height="62dp"
+                android:text="41k to 60k"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/sal4"
+                android:layout_width="232dp"
+                android:layout_height="67dp"
+                android:text="70k -- above"
+                android:textSize="25dp" />
+
+
+            <RadioButton
+                android:id="@+id/sal5"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:text="1lac -- above"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/sal6"
+                android:layout_width="263dp"
+                android:layout_height="63dp"
+                android:text="150k--above"
+                android:textSize="25dp" />
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/otherreq1"
+            android:layout_width="350dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Other requirements....... "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <Button
+            android:id="@+id/addjobreq"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Save"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/back7"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Back"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

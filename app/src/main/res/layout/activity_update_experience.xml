@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".update_experience">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="17dp"
+            android:paddingLeft="40dp"
+            android:text="Update Experience"
+            android:textColor="@color/logocolour"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="26dp"
+            android:text="Job Title:"
+            android:textColor="@color/logocolour"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/jbt1"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Job Title"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="337dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="Employment Type:"
+            android:textColor="@color/logocolour"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/spinner3"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:hint="Full-time, internship etc"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="26dp" />
+
+
+        <EditText
+            android:id="@+id/jbcompany"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Company Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/jblocation"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="27dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Location "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/jbstart"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Start Date"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/jbend"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="27dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="End Date"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+        <EditText
+            android:id="@+id/jbindustry"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="59dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Industry"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Update"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/back_3"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Back"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/nexttoadddomain"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Next"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

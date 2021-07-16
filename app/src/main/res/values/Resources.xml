@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <resources>
+        <string-array name="font_sizes">
+            <item>Full-time</item>
+            <item>Part-time</item>
+            <item>Self-employed</item>
+            <item>Freelance</item>
+            <item>Contract</item>
+            <item>Internship</item>
+            <item>Apprenticeship</item>
+        </string-array>
+    <string-array name="jobportals">
+        <item>Craigslist</item>
+        <item>Portal2</item>
+        <item>Portal3</item>
+
+    </string-array>
+    <string-array name="job_nature">
+        <item>Full-time</item>
+        <item>Part-time</item>
+        <item>Self-employed</item>
+        <item>Freelance</item>
+        <item>Contract</item>
+        <item>Night Shifts</item>
+        <item>Monthly Paid</item>
+        <item>Hourly Paid</item>
+    </string-array>
+    </resources>

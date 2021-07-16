@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddEducation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text="Add Education"
+            android:textColor="@color/logocolour"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text="Matric / SSC"
+            android:textColor="@color/logocolour"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Minstitution"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Institition"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Mendyear"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="End Year(i.e 11-12-2021)"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+        <EditText
+            android:id="@+id/Mmarks"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="CGPA / %age "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Msubject"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Major Subject "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text=" Intermediate / HSSC"
+            android:textColor="@color/logocolour"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/Hinstitution"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Institition"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Hendyear"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="End Year(i.e 11-12-2021)"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+        <EditText
+            android:id="@+id/Hmarks"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="CGPA / % "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Hsubject"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Major Subject "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="Graduation  "
+            android:textColor="@color/logocolour"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/Ginstitution"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Institition"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Gendyear"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="End Year(i.e 11-12-2021)"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+        <EditText
+            android:id="@+id/Gmarks"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="CGPA / %age"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Gsubject"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Major Subject "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="120dp"
+
+            android:text="Masters / M.PHL /   "
+            android:textColor="@color/logocolour"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/Oinstitution"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Institition"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Oendyear"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="End Year(i.e 11-12-2021)"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+        <EditText
+            android:id="@+id/Omarks"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="CGPA / %age "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Osubject"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Major Subject "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="PhD   "
+            android:textColor="@color/logocolour"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/Pinstitution"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Institition"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Pendyear"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="End Year(i.e 11-12-2021)"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+        <EditText
+            android:id="@+id/Pmarks"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="CGPA / %age "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+        <EditText
+            android:id="@+id/Psubject"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Major Subject "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="300dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Comment....... "
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <Button
+            android:id="@+id/addeducation"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Save"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/back_2"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Back"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/nexttoaddexperience"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Next"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

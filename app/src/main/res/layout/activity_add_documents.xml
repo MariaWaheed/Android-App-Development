@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddDocuments">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/logocolour"
+            android:paddingLeft="150dp"
+            android:paddingTop="20dp"
+            android:text="ADD CV"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="=> Please upload pdf file only!"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <Button
+            android:id="@+id/addcv"
+            android:layout_width="275dp"
+            android:layout_height="62dp"
+            android:paddingLeft="2dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Add CV"
+            android:textSize="15sp"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/savefiles"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Upload CV"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/back6"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Back"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/nexttojobrequirement"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Next"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>

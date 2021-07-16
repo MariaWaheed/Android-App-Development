@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Job Assistant</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="doberror">Enter a valid dob</string>
+    <string name="mobileerror">Enter a valid mobile 11 digits</string>
+    <string name="dateerror">Enter a valid date format</string>
+    <string name="ageerror">Enter a valid age</string>
+    <string name="cnicerror">CNIC not follow the format</string>
+    <string name="yearError">Enter a valid Year eg 11-11-2020</string>
+
+</resources>

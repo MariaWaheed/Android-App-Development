@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DomainProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="40dp"
+            android:background="@color/logocolour"
+
+            android:paddingTop="20dp"
+            android:text="Start Apply Jobs"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/portaldetails"
+            android:layout_width="290dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="1dp"
+            android:background="@drawable/rounded_button"
+            android:text="Job Account Details"
+            android:textSize="15sp"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/start"
+            android:layout_width="290dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Take Data From Database"
+            android:textSize="15sp"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/sendit"
+            android:layout_width="290dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_button"
+            android:text="Send Data to Server"
+            android:textSize="15sp"
+            android:textColor="#fff" />
+
+
+
+    </LinearLayout>
+</ScrollView>
